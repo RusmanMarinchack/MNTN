@@ -1,0 +1,8 @@
+@mixin before($background) {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    margin: 0 25px 5px 0;
+    background: $background;
+}
